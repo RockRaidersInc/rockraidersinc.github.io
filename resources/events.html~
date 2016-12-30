@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Rensselaer Formula Hybrid | Home</title>
+	<!--=========================== CSS ====================================-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div role="header">
+			<div class="row" role="banner">
+				<img class="logo" src="../img/logo/rectangular_logo.png">
+				<h1>Rensselaer Formula Hybrid</h1>
+			</div>
+			<div class="text-right" role="nav">
+				<a href="../index.html">Home</a>
+				<a href="../content/info.html">Team Information</a>
+				<a href="../content/sponsors.html">Sponsors</a>
+				<a href="../content/events.html">Events</a>
+			</div>
+		</div>
+		<div class="col-xs-offset-1 col-xs-10" id="content">
+			<h2>NRB 2016</h2>
+		</div>
+	</div>
+</body>
+</html>

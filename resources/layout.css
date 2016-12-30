@@ -1,0 +1,155 @@
+
+html, body{
+
+   	background: url(img/logo/rol.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: auto;
+	width:100%;
+	height:100%;
+}
+div[role="header"]{
+	padding: 20px;
+	background-color: #B22222;	/*Fire brick red*/
+}
+div[role="banner"]{
+	margin-left: 100px;
+	color: #000;
+}
+
+div[role="banner"] h1 {
+	font-size: 50px;
+}
+button {
+    display: inline-block;
+    border: none;
+    outline:none;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 200px;
+}
+.sponsor-button{
+	display: inline-block;
+    border: none;
+    outline:none;
+    height: 150px;
+    vertical-align: top;
+    width: 300px;
+    margin-right:100px;
+    margin-left:100px;
+}
+
+#home {
+    background-image: url(img/logo/home.jpg);
+    background-size: 200px 90px;
+    height: 90px;  
+    width: 200px;
+}
+#team_info {
+    background-image: url(img/logo/team.jpg);
+    background-size: 200px 90px;
+    height: 90px;  
+    width: 200px;
+}
+#sponsor_info {
+    background-image: url(img/logo/sponsors.jpg);
+    background-size: 200px 90px;
+    height: 90px;  
+    width: 200px;
+}
+#event_info {
+    background-image: url(img/logo/events.jpg);
+    background-size: 200px 90px;
+    height: 90px;  
+    width: 200px;
+}
+#contact_info {
+    background-image: url(img/logo/contacts.jpg);
+    background-size: 200px 90px;
+    height: 90px;  
+    width: 200px;
+    margin-right: 300px;
+}
+.logo{
+	float: center;
+	margin-left: auto;
+	margin-right: 100px;
+	padding: 0;
+	width: 500px;
+	height: auto;
+}
+div[role="nav"]{
+	margin-right: 100px;	
+}
+
+div[role="nav"] a {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #FFF;
+	border:1px solid;
+	border-color: #B22222;
+	border-left-color: white;
+	padding-left: 20px;
+}
+.myImage {
+  float: right;
+  height: 350px;
+  width: 300px;
+}
+#sponsor {
+    background-image: url(img/logo/urc.jpg);
+    background-size: 150px 100px;
+    height: 100px;  
+    width: 150px;
+}
+.pl {
+  float:left;
+  font-size:20px;
+}
+.ps {
+  font-size:20px;
+}
+.sponsor{
+	width: 350px;
+	height: auto;
+}
+#cats {
+    background-image: url(img/sponsors/cats.png);
+    background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}
+#dell {
+    background-image: url(img/sponsors/dell.png);
+    background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}
+#grainger {
+    background-image: url(img/sponsors/grainger.png);
+     background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}
+#lrig {
+    background-image: url(img/sponsors/lrig.jpg);
+    background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}
+#nystar {
+    background-image: url(img/sponsors/nystar.jpg);
+    background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}
+#rpi {
+    background-image: url(img/sponsors/rpi.jpg);
+    background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}

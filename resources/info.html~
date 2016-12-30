@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Rensselaer Formula Hybrid | Team Information</title>
+	<!--=========================== CSS ====================================-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div role="header">
+			<div class="row" role="banner">
+				<img class="logo" src="../img/logo/rectangular_logo.png">
+				<h1>Rensselaer Formula Hybrid</h1>
+			</div>
+			<div class="text-right" role="nav">
+				<a href="../index.html">Home</a>
+				<a href="../content/info.html">Team Information</a>
+				<a href="../content/sponsors.html">Sponsors</a>
+				<a href="../content/events.html">Events</a>
+			</div>
+		</div>
+		<div class="col-xs-offset-1 col-xs-10" id="content">
+			<h2>Shop Location:</h2>
+			<ul>
+				<p>Ricketts Building // Room 001 // +1 (518) 276-8214 (No Answering Machine)</p>
+			</ul>
+
+			<h2>Meeting Times:</h2>
+			<ul>
+				<p>General Team Meetings: Mondays // 8pm // Ricketts 001
+				<br>New members always welcome!</p>
+			</ul>
+
+			<h2>Contact Us:</h2>
+			<ul>
+				<p><b><u>Evan Engisch - Team Lead</u></b>
+				<br>engise@rpi.edu
+				<br>(802) 829-8938</p>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
