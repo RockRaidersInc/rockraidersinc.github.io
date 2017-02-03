@@ -41,6 +41,10 @@ button {
     margin-right:100px;
     margin-left:100px;
 }
+img.teamphoto {
+    width: 100%;
+    height: auto;
+}
 
 #home {
     background-image: url(img/logo/home.jpg);
@@ -149,6 +153,18 @@ div[role="nav"] a {
 }
 #rpi {
     background-image: url(img/sponsors/rpi.jpg);
+    background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}
+#jhb {
+    background-image: url(img/sponsors/jhb.png);
+    background-size: 300px 150px;
+    height: 150px;  
+    width: 300px;
+}
+#harting {
+    background-image: url(img/sponsors/harting.jpg);
     background-size: 300px 150px;
     height: 150px;  
     width: 300px;
