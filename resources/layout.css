@@ -9,6 +9,11 @@ html, body{
 	width:100%;
 	height:100%;
 }
+/*please use percentage instead of px*/
+/*we need a better looking sponsorship page*/
+/*a page that won't look disfunctional when switch to another device*/
+
+
 div[role="header"]{
 	padding: 20px;
 	background-color: #B22222;	/*Fire brick red*/

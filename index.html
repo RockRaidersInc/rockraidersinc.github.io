@@ -4,10 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Rensselaer Rock Raiders | Home</title>
 	<!--=========================== CSS ====================================-->
-	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link href="resources/layout.css" rel="stylesheet" type="text/css">
-	<script src="https://use.fontawesome.com/ee27ebf8c8.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> <!--font file-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!--bootstrap-->
+	<link href="resources/layout.css" rel="stylesheet" type="text/css"> <!--CSS file for customization-->
+	<!-- Move style into css file--> 
 	<style type="text/css">
 	html{
 		background: url(resources/img/logo/rol.jpg) no-repeat center center fixed; 
@@ -19,6 +19,10 @@
 		height:100%;
     }
     </style>
+    <!-- ==================================== JS ============================-->
+    <script src="https://use.fontawesome.com/ee27ebf8c8.js"></script> <!--special symbol-->
+
+
 </head>
 <body>
 	<div class="container-fluid">
@@ -50,7 +54,7 @@
 					university-level competitions. For 2016-2017, our goal is to build a mars rover to compete in the University Rover Challenge.
 				</p>
 			</div>
-			<br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br> <!-- this is really bad practice -->
 
 			<div id = "competition">
 				<h2>About the Competition:</h2>
@@ -69,6 +73,8 @@
 				<p class="pl">
 					<br>For more information, please click on the logo to the right:
 				</p>
+				
+				<!--all javascript go into a javascript file -->
 				<button onClick="OpenMars()" button id="sponsor"></button>
                 <script type="text/javascript">
                     function OpenMars(){
