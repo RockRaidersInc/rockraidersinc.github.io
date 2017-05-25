@@ -1,0 +1,38 @@
+#rover-image {
+    text-align:right;
+}
+#rover-image img {
+    width:100%;
+    max-width:650px;
+}
+
+#mission {
+    padding-right: 2em;
+}
+
+#urc-logo {
+    height:3em;
+    margin-top:-0.25em;
+    padding-right:1em;
+    padding-left:0.75em;
+    float: right;
+}
+
+#urc-logo:hover {
+    cursor:pointer;
+}
+
+@media only screen and (min-width : 650px) {
+    #rover-image img {
+        margin-top: 5.5em;
+    }
+}
+
+@media only screen and (min-width : 1000px) {
+    #rover-image img {
+        margin-top: 0;
+    }
+    #mission {
+        line-height: 2em;;
+    }
+}

@@ -5,11 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!--=========================== EXTERNAL CSS ====================================-->
-	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> <!--font file-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!--bootstrap-->
-	<link href="resources/layout.css" rel="stylesheet" type="text/css"> <!--CSS file for customization-->
+	<!--<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>-->
+	<link rel="stylesheet" href="/resources/normalize.css" type="text/css">
 	<!-- ==================================== EXTERNAL JS ============================-->
-	<script src="https://use.fontawesome.com/ee27ebf8c8.js"></script> <!--special symbol-->
 
 	<title>Rensselaer Rock Raiders | Home</title>
 
@@ -17,65 +15,66 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="/resources/global_styles.css" type="text/css">
+	<script src="/resources/app.js" language="JavaScript"></script>
+
+	<link rel="stylesheet" href="index.css" type="text/css">
 </head>
 <body>
-	<div class="container-fluid">
-		<div id="header">
-			<div id="logo-banner">
-				<img id="logo-banner-img" src="/resources/img/logo/team_logo.png"/>
-			</div>
-			<div>
-				<a href="/index.html" class="nav-bar-link">Home</a>
-				<a href="/resources/info.html" class="nav-bar-link">The Team</a>
-				<a href="/resources/sponsors.html" class="nav-bar-link">Sponsors</a>
-				<a href="/resources/events.html" class="nav-bar-link">Events</a>
-				<a href="/resources/contacts.html" class="nav-bar-link">Contact</a>
-			</div>
+	<div id="header">
+		<div id="logo-banner">
+			<img id="logo-banner-img" src="/resources/img/logo/team_logo.png"/>
 		</div>
-		<div class="col-xs-offset-1 col-xs-10" id="content">
-			<div id = "mission">
-				<img src="resources/img/photo/rover.jpg" class="myImage"/>
+		<div>
+			<a href="/index.html" class="nav-bar-link">Home</a>
+			<a href="/resources/info.html" class="nav-bar-link">The Team</a>
+			<a href="/resources/sponsors.html" class="nav-bar-link">Sponsors</a>
+			<a href="/resources/events.html" class="nav-bar-link">Events</a>
+			<a href="/resources/contacts.html" class="nav-bar-link">Contact</a>
+		</div>
+	</div>
+	<div id="content">
+		<div class="row">
+			<div class="col-5 r-col" id="rover-image">
+				<img src="resources/img/photo/rover.jpg"/>
+			</div>
+			<div class="col-7 r-col">
 				<h2>Our Mission:</h2>
-				<br><br>
-				<p class="pl">
+				<p id="mission">
 					RPI Rock Raiders is a student-run interdisciplinary team that promotes the advancement of engineering proficiency
-				</p>
-				<p class="pl">
 					at Rensselaer Polytechnic Institute in Troy, NY. We aim to design and build innovative robots that participate in
-				</p>
-				<p class="pl">
 					university-level competitions. For 2016-2017, our goal is to build a mars rover to compete in the University Rover Challenge.
 				</p>
 			</div>
-			<br><br><br><br><br><br><br><br> <!-- this is really bad practice -->
-
-			<div id = "competition">
-				<h2>About the Competition:</h2>
-				<p class="pl">
-					The Mars Society is an international organization that promotes the exploration and eventual settlement of Mars through public awareness, government funding, and efforts in the private sector. The University Rover Challenge hosted by the Mars Society is an annual competition which takes place at the Mars Desert Research Center in the deserts of southern Utah.
-				</p>
-				<p class="pl">
-					<br>RPI Rock Raiders will participate in this competition for the first time in the summer 2017. With work and experience from NASA Sample Return Challenge, we hope to succeed in this competition. We aim to learn in this year's competition and apply it to future years.
-				</p>
-				<p class="pl">
-					<br>Several universities around the world will be competing against the Rock Raiders in four tasks: science cache, extreme retrieval and delivery, equipment servicing and autonomous traversal. Each task will be scored with the potential to earn up to 500 points. The Rock Raiders is also responsible for presenting the rover to the judges. In this segment of the competition, the team will be judged on team structure, organization and management, core rover design and presented functionality, suitability of rover design to competition tasks, response to follow-up questions, and over quality of the presentation.
-				</p>
-				<p class="pl">
-					<br>Following all of the scoring activities, the team with the highest collective score will be declared the winner. The winner receives the honor of presenting their rover at the International Mars Society Convention.  
-				</p>
-				<p class="pl">
-					<br>For more information, please click on the logo to the right:
-				</p>
-				
-				<!--all javascript go into a javascript file -->
-				<button onClick="OpenMars()" button id="sponsor"></button>
-                <script type="text/javascript">
-                    function OpenMars(){
-                        window.open("http://urc.marssociety.org/");
-                    }
-                </script>
-				</div>
 		</div>
+		<div id = "competition">
+			<h2>About the Competition:</h2>
+			<p>
+				The Mars Society is an international organization that promotes the exploration and eventual settlement of Mars through public
+				awareness, government funding, and efforts in the private sector. The University Rover Challenge hosted by the Mars Society is
+				an annual competition which takes place at the Mars Desert Research Center in the deserts of southern Utah.
+			</p>
+			<p>
+				RPI Rock Raiders will participate in this competition for the first time in the summer 2017. With work and experience from
+				NASA Sample Return Challenge, we hope to succeed in this competition. We aim to learn in this year's competition and apply it
+				to future years.
+			</p>
+			<p>
+				Several universities around the world will be competing against the Rock Raiders in four tasks: science cache, extreme
+				retrieval and delivery, equipment servicing and autonomous traversal. Each task will be scored with the potential to earn up to
+				500 points. The Rock Raiders is also responsible for presenting the rover to the judges. In this segment of the competition, the
+				team will be judged on team structure, organization and management, core rover design and presented functionality, suitability of
+				rover design to competition tasks, response to follow-up questions, and over quality of the presentation.
+			</p>
+			<p>
+				Following all of the scoring activities, the team with the highest collective score will be declared the winner. The winner
+				receives the honor of presenting their rover at the International Mars Society Convention.
+			</p>
+			<p>
+				<img src="/resources/img/logo/urc.jpg" id="urc-logo" onClick="openLinkInNewWindow('http://urc.marssociety.org/')"/>
+				For more information, please click on the logo to the right:
+			</p>
+
+			</div>
 	</div>
 </body>
 </html>

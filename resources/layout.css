@@ -1,42 +1,4 @@
 
-
-/*please use percentage instead of px*/
-/*we need a better looking sponsorship page*/
-/*a page that won't look disfunctional when switch to another device*/
-
-/*
-div[role="header"]{
-    overflow: hidden;
-	padding: 20px;
-	background-color: #B22222;
-}
-div[role="banner"]{
-	color: #000;
-}
-
-div[role="banner"] h1 {
-	font-size: 50px;
-}
-button {
-    display: inline-block;
-    border: none;
-    outline:none;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
-    width: 200px;
-}
-.sponsor-button{
-	display: inline-block;
-    border: none;
-    outline:none;
-    height: 150px;
-    vertical-align: top;
-    width: 300px;
-    margin-right:100px;
-    margin-left:100px;
-} */
 img.teamphoto {
     width: 85%;
     height: auto;
@@ -74,21 +36,6 @@ img.teamphoto {
     margin-right: 300px;
 }
 
-/*
-div[role="nav"]{
-	margin-right: 100px;	
-}
-div[role="nav"] a {
-	margin-right: 10px;
-	margin-left: 10px;
-	font-size: 15px;
-	color: #FFF;
-	border:1px solid;
-	border-color: #B22222;
-	border-left-color: white;
-	padding-left: 20px;
-}
-*/
 .myImage {
   float: right;
   height: 350px;
