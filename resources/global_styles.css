@@ -108,6 +108,11 @@ p {
     font-size:20px;
 }
 
+figure figcaption {
+    width:100%;
+    text-align: center;
+}
+
 @media only screen and (min-width : 1000px) {
     p {
         line-height: 1.5em;;
