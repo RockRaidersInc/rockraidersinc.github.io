@@ -15,6 +15,10 @@ Rock Raiders Red:
     line-height: 1.25em;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 /*Adds logo image to background*/
 body {
    	background: url(/resources/img/logo/rol.jpg) no-repeat center center fixed;

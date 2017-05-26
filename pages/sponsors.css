@@ -1,0 +1,35 @@
+.sponsor_container {
+    box-sizing: border-box;
+    float:left;
+    width: 100%;
+    height: 33vh;
+    text-align: center;
+    line-height: 50vh;
+    padding:1em;
+}
+
+.sponsor_container a,img {
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+@media only screen and (min-width: 650px) {
+    .sponsor_container {
+        width: 50%;
+        height: 25vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sponsor_container {
+        width: 33.33%;
+        height: 33vh;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .sponsor_container {
+        width: 25%;
+    }
+}
