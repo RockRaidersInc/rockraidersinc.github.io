@@ -1,0 +1,42 @@
+[
+  {
+    "name": "CATS",
+    "url": "http://www.cats.rpi.edu/",
+    "img": "cats.png"
+  },
+  {
+    "name": "Dell",
+    "url": "http://www.dell.com/en-us/",
+    "img": "dell.png"
+  },
+  {
+    "name": "The Grainger Foundation",
+    "url": "https://fconline.foundationcenter.org/grantmaker-profile?key=GRAI002",
+    "img": "grainger.png"
+  },
+  {
+    "name": "LRIG",
+    "url": "http://www.lrig.org/chapters/upstate-new-york",
+    "img": "lrig.jpg"
+  },
+  {
+    "name": "NYSTAR",
+    "url": "https://esd.ny.gov/nystar/",
+    "img": "nystar.jpg"
+  },
+  {
+    "name": "Rensselaer Polytechnic Institute",
+    "url": "http://www.rpi.edu",
+    "img": "rpi.jpg"
+  },
+  {
+    "name": "JH Bennett",
+    "url": "http://www.jhbennett.com/",
+    "img": "jhb.png"
+  },
+  {
+    "name": "Harting",
+    "url": "http://www.harting-usa.com/home/",
+    "img": "harting.jpg"
+  }
+]

@@ -13,6 +13,7 @@ Rock Raiders Red:
 * {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.25em;
+    box-sizing: border-box;
 }
 
 .bold-text {
@@ -104,12 +105,12 @@ body {
 }
 
 h2 {
-    font-size:30px;
+    font-size:22pt;
     font-weight:500;
 }
 
-p {
-    font-size:20px;
+p, td, th {
+    font-size:16pt;
 }
 
 a {
@@ -118,6 +119,11 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+a.no-style {
+    color: black;
+    text-decoration: none;
 }
 
 figure figcaption {
@@ -138,7 +144,7 @@ figure figcaption {
     width: 100%;
 }
 
-.row::after, #content::after {
+.row::after, #content::after, .clearfix::after {
     content: "";
     clear: both;
     display: table;

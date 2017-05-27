@@ -1,0 +1,59 @@
+.no-events {
+    font-size: 20pt;
+    text-align: center;
+    width: 100%;
+    color: gray;
+}
+
+#event-list {
+    width: 100%;
+}
+#event-list td {
+    display: block;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+.date-col {
+    width: 100%;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.desc-col {
+    width: 100%;
+    padding-left: 1em;
+}
+
+.event-title {
+    font-weight: bold;
+    font-size: 18pt;
+    width: 100%;
+    height: 20pt;
+    margin-left: -1em; /*Counteract subtitle div padding*/
+    padding-right: 1em;
+}
+.subtitle {
+    float: left;
+    padding-left: 1em;
+}
+
+@media only screen and (min-width: 650px) {
+    #event-list td {
+        display: table-cell;
+    }
+    .date-col {
+        width: 25%;
+        min-width: 210px;
+        text-align: right;
+    }
+    .desc-col {
+        padding-left: 5%;
+    }
+
+    .event-title {
+        width: auto;
+    }
+
+    .subtitle {
+    }
+}
