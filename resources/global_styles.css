@@ -112,6 +112,14 @@ p {
     font-size:20px;
 }
 
+a {
+    color: #6600cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 figure figcaption {
     width:100%;
     text-align: center;

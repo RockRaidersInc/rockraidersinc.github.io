@@ -1,0 +1,47 @@
+
+
+@media only screen and (min-width: 650px) {
+    /* Prevent griding */
+    .col-4 {
+        width: 100%;
+    }
+
+    #primary-title {
+        display: none;
+    }
+
+    #email-row {
+        margin: 10vh 0;
+    }
+
+    #email-cell {
+        text-align: center;
+    }
+
+    #email-cell h3 {
+        font-size: 36pt;
+        margin: 0.5em;
+    }
+
+    #email-cell h3::after {
+        content: " Us";
+    }
+
+    #email-cell a {
+        font-size: 32pt;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #email-row {
+        margin: 20vh 0;
+    }
+    .contact {
+        text-align: center;
+    }
+    /* Move into grid */
+    .col-4 {
+        width: 33.33%;
+    }
+
+}
