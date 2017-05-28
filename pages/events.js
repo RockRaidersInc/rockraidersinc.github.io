@@ -12,6 +12,9 @@ EVENT OUTLINE JSON
 */
 
 function htmlForRow(event){
+    if(event.title === undefined){ //Empty object, insert spacing row
+        return "<tr><td colspan=2 class='spacer-row'></td></tr>";
+    }
     return ""+
 "<tr>"+
     "<td class='date-col'>"+ event.date +"</td>"+

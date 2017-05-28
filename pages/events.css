@@ -37,6 +37,10 @@
     padding-left: 1em;
 }
 
+.spacer-row {
+    height: 3vh;
+}
+
 @media only screen and (min-width: 650px) {
     #event-list td {
         display: table-cell;

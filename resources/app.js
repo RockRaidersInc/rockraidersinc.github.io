@@ -36,9 +36,12 @@ function JSONRequestDuringLoad(url, parseResponse, onReadyWithData){
         }
     });
 }
-
+// Convenience wrappers for common use cases of the above
 function addContentFromJSON(url, parser, targetId){
     JSONRequestDuringLoad(url, parser, function(content) {
         document.getElementById(targetId).innerHTML += content;
     });
+}
+function runWithJSONDataOnPageLoad(url, callback){
+    JSONRequestDuringLoad(url, function(it) {return it;}, callback);
 }
