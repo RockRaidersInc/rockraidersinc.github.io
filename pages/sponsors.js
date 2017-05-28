@@ -7,6 +7,7 @@ function htmlForSponsor(sponsor){
 "</div>";
 }
 
+//Path prefix for all sponsor image names
 var sponsor_img_prefix = "/resources/img/sponsors/";
 
 function htmlForSponsorList(list){
@@ -18,5 +19,6 @@ function htmlForSponsorList(list){
     return content;
 }
 
-addContentFromJSON("/data/sponsors/sponsors.json", htmlForSponsorList, "content");
+//Use the data from the given JSON and the above function to fill the content div
+addContentFromJSON("/resources/data/sponsors/sponsors.json", htmlForSponsorList, "content");
 
