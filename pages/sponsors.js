@@ -12,7 +12,8 @@ var sponsor_img_prefix = "/resources/img/sponsors/";
 
 function htmlForSponsorList(list){
     var content = "";
-    for(obj of list){
+    for(i = 0; i < list.length; ++i){
+        obj = list[i];
         obj.img = sponsor_img_prefix + obj.img; //Add prefix to img reference
         content+=htmlForSponsor(obj);
     }
@@ -21,4 +22,3 @@ function htmlForSponsorList(list){
 
 //Use the data from the given JSON and the above function to fill the content div
 addContentFromJSON("/resources/data/sponsors/sponsors.json", htmlForSponsorList, "content");
-

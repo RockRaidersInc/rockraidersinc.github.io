@@ -33,8 +33,8 @@ function htmlForEventList(list){
     if(list.length == 0) return "<div class='no-events'>No Upcoming Events</div>";
     else{
         var ret = "<table id='event-list'>";
-        for(event of list){
-            ret += htmlForRow(event);
+        for(i=0; i<list.length; ++i){
+            ret += htmlForRow(list[i]);
         }
         ret += "</table>";
 
