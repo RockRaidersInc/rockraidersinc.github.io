@@ -8,10 +8,17 @@
     padding:1em;
 }
 
-.sponsor_container a,img {
+.sponsor_container * {
     width:100%;
     height:100%;
+}
+
+.sponsor_container img {
     object-fit:contain;
+}
+
+.sponsor_container a {
+    display: block;
 }
 
 @media only screen and (min-width: 650px) {

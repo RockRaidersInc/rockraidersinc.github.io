@@ -155,7 +155,7 @@ figure figcaption {
     display: table;
 }
 
-//Two different sets of grid classes for different breakpoints
+/* Two different sets of grid classes for different breakpoints */
 
 @media only screen and (min-width : 650px){
     .col-1-650 {width: 8.33%;}
