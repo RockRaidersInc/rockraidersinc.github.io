@@ -109,8 +109,13 @@ h2 {
     font-weight:500;
 }
 
-p, td, th {
+p, td, th, .content-text {
     font-size:16pt;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18pt;
 }
 
 a {
@@ -132,7 +137,7 @@ figure figcaption {
 }
 
 @media only screen and (min-width : 1000px) {
-    p {
+    * {
         line-height: 1.5em;;
     }
 }
@@ -150,19 +155,36 @@ figure figcaption {
     display: table;
 }
 
+//Two different sets of grid classes for different breakpoints
+
 @media only screen and (min-width : 650px){
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .col-1-650 {width: 8.33%;}
+    .col-2-650 {width: 16.66%;}
+    .col-3-650 {width: 25%;}
+    .col-4-650 {width: 33.33%;}
+    .col-5-650 {width: 41.66%;}
+    .col-6-650 {width: 50%;}
+    .col-7-650 {width: 58.33%;}
+    .col-8-650 {width: 66.66%;}
+    .col-9-650 {width: 75%;}
+    .col-10-650 {width: 83.33%;}
+    .col-11-650 {width: 91.66%;}
+    .col-12-650 {width: 100%;}
+}
+
+@media only screen and (min-width : 1000px){
+    .col-1-1000 {width: 8.33%;}
+    .col-2-1000 {width: 16.66%;}
+    .col-3-1000 {width: 25%;}
+    .col-4-1000 {width: 33.33%;}
+    .col-5-1000 {width: 41.66%;}
+    .col-6-1000 {width: 50%;}
+    .col-7-1000 {width: 58.33%;}
+    .col-8-1000 {width: 66.66%;}
+    .col-9-1000 {width: 75%;}
+    .col-10-1000 {width: 83.33%;}
+    .col-11-1000 {width: 91.66%;}
+    .col-12-1000 {width: 100%;}
 }
 
 

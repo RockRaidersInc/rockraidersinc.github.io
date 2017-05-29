@@ -3,6 +3,21 @@ function openLinkInNewWindow(link){
     window.open(link);
 }
 
+//JS to obtain query params as per https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+function getQueryParams() {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+    urlParams = {};
+    while (match = search.exec(query)){
+       urlParams[decode(match[1])] = decode(match[2]);
+    }
+    return urlParams;
+}
+
 //Convenience function for making JSON requests
 //Requests url and passes the parsed JSON response to onResponse
 function getJSONData(url, onResponse){

@@ -1,0 +1,38 @@
+#title {
+    font-size: 26pt;
+    text-align: center;
+}
+
+.info-row {
+    margin-bottom: 1em;
+}
+
+#detail-pane, #description {
+    width: 100%;
+}
+
+@media only screen and (min-width:650px) {
+    .info-row:not(#location) {
+        width: 50%;
+        float: left;
+    }
+    #back-link{
+        float: left;
+        height: 0; overflow: visible;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    #title {
+        margin-top: 0;
+    }
+
+    #detail-pane{
+        width: 300px;
+        float: left;
+    }
+    .info-row:not(#location) {
+        float: none;
+        width: auto;
+    }
+}

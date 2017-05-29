@@ -1,11 +1,4 @@
-
-
 @media only screen and (min-width: 650px) {
-    /* Prevent griding */
-    .col-4 {
-        width: 100%;
-    }
-
     #primary-title {
         display: none;
     }
@@ -39,9 +32,4 @@
     .contact {
         text-align: center;
     }
-    /* Move into grid */
-    .col-4 {
-        width: 33.33%;
-    }
-
 }
