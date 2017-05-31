@@ -13,12 +13,11 @@
     height:100%;
 }
 
-.sponsor_container img {
-    object-fit:contain;
-}
-
 .sponsor_container a {
     display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media only screen and (min-width: 650px) {
