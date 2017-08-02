@@ -33,7 +33,7 @@ This JSON is retrieved and used by `/pages/events.js`
 
 ### ###This is under active development and is subject to change###
 
-These files contain a more detailed description of events and supply the data for the event details page.  The name
+These files contain a more detailed description of events and supply the data for the event details page.  The filename
 is irrelevant provided the specification in outline.json is accurate.  This will be easiest if the filename does not
 include spaces or special characters, as the specification requires no url escaping.  An event is described as
 follows:
