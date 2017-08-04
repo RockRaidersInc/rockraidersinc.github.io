@@ -7,32 +7,23 @@
     margin-bottom: 1em;
 }
 
-#detail-pane, #description {
+#detail-pane{
     width: 100%;
+    padding: 0 0.5em;
 }
 
-@media only screen and (min-width:650px) {
-    .info-row:not(#location) {
-        width: 50%;
-        float: left;
-    }
+@media only screen and (min-width:48em) {
     #back-link{
         float: left;
         height: 0; overflow: visible;
     }
 }
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:64em){
     #title {
         margin-top: 0;
     }
-
     #detail-pane{
         width: 300px;
-        float: left;
-    }
-    .info-row:not(#location) {
-        float: none;
-        width: auto;
     }
 }

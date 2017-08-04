@@ -1,6 +1,6 @@
 function htmlForSponsor(sponsor){
     return ""+
-"<div class='sponsor_container'>"+
+"<div class='col-xs-12 col-sm-6 col-md-4 col-lg-3 sponsor_container'>"+
     "<a href='"+ sponsor.url +"' title='"+ sponsor.name +"' style='background-image:url(\""+ sponsor.img +"\")'/>"+
 "</div>";
 }
