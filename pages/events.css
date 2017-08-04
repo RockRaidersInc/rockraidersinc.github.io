@@ -15,12 +15,10 @@
 }
 
 .date-col {
-    width: 100%;
     font-weight: bold;
     font-size: 20pt;
 }
 .desc-col {
-    width: 100%;
     padding-left: 1em;
 }
 
@@ -41,12 +39,11 @@
     height: 3vh;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 48em) {
     #event-list td {
         display: table-cell;
     }
     .date-col {
-        width: 25%;
         min-width: 210px;
         text-align: right;
     }
@@ -58,6 +55,4 @@
         width: auto;
     }
 
-    .subtitle {
-    }
 }

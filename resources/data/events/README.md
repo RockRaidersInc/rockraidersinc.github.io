@@ -49,7 +49,7 @@ follows:
 ```
 The fields all fill the correspondingly labeled sections of `event_details.html`.  It may be useful to note that these
 attributes may contain their own HTML, which may be particularly useful for the description.  In that case, however,
-avoid placing the first section of text in a block element, as it will move it below the Description: label, which
+avoid placing the first section of text in a block element, as it will move it below the `Description:` label, which
 would be inconsistent.
 
 These files are used by `/pages/event_detail.js`.

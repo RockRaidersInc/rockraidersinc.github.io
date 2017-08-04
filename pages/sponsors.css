@@ -19,23 +19,3 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-@media only screen and (min-width: 650px) {
-    .sponsor_container {
-        width: 50%;
-        height: 25vh;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .sponsor_container {
-        width: 33.33%;
-        height: 33vh;
-    }
-}
-
-@media only screen and (min-width: 1600px) {
-    .sponsor_container {
-        width: 25%;
-    }
-}
