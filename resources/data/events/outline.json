@@ -4,5 +4,12 @@
 		"title": "Activities Fair",
 		"subtitle": "Learn about who we are and meet representatives from all our engneering subteams",
 		"dataFile": "activities_fair"
+	},
+	{},
+	{
+		"date": "September 1",
+		"title": "First General Body Meeting",
+		"subtitle": "We will be welcoming new members and demonstrating our current rover systems.  Open to all.",
+		"dataFile": "gbm_1"
 	}
 ]
