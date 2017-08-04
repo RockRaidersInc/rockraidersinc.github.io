@@ -20,13 +20,13 @@ function htmlForRow(event){
     }
     return ""+
 "<div class='row'>"+
-    "<td class='date-col col-xs-12 col-sm-3'>"+ event.date +"</td>"+
-    "<td class='desc-col col-xs-12 col-sm'>"+
+    "<div class='date-col col-xs-12 col-sm-3'>"+ event.date +"</div>"+
+    "<div class='desc-col col-xs-12 col-sm'>"+
         "<div class='subtitle'>"+
             "<a class='event-title' href = '"+baseEventUrl+ event.dataFile +"'>"+ event.title +"</a>"+
             event.subtitle+
         "</div>"+
-    "</td>"+
+    "</div>"+
 "</div>";
 }
 function htmlForEventList(list){
