@@ -16,27 +16,27 @@ For spacing row
 var baseEventUrl = "/pages/event_detail.html?event=";
 function htmlForRow(event){
     if(event.title === undefined){ //Empty object, insert spacing row
-        return "<tr><td colspan=2 class='spacer-row'></td></tr>";
+        return "<div class='row'><div class='col-xs-12 spacer-row'></div></div>";
     }
     return ""+
-"<tr>"+
-    "<td class='date-col'>"+ event.date +"</td>"+
-    "<td class='desc-col clearfix'>"+
+"<div class='row'>"+
+    "<div class='date-col col-xs-12 col-sm-3'>"+ event.date +"</div>"+
+    "<div class='desc-col col-xs-12 col-sm'>"+
         "<div class='subtitle'>"+
             "<a class='event-title' href = '"+baseEventUrl+ event.dataFile +"'>"+ event.title +"</a>"+
             event.subtitle+
         "</div>"+
-    "</td>"+
-"</tr>";
+    "</div>"+
+"</div>";
 }
 function htmlForEventList(list){
     if(list.length == 0) return "<div class='no-events'>No Upcoming Events</div>";
     else{
-        var ret = "<table id='event-list'>";
+        var ret = "<div class='container-fluid'>";
         for(i=0; i<list.length; ++i){
             ret += htmlForRow(list[i]);
         }
-        ret += "</table>";
+        ret += "</div>";
 
         return ret;
     }

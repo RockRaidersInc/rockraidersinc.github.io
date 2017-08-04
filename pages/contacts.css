@@ -1,8 +1,4 @@
-@media only screen and (min-width: 650px) {
-    #primary-title {
-        display: none;
-    }
-
+@media only screen and (min-width: 48em) {
     #email-row {
         margin: 10vh 0;
     }
@@ -26,7 +22,7 @@
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 64em) {
     #email-row {
         margin: 20vh 0;
     }
