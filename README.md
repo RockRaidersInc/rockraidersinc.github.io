@@ -15,5 +15,12 @@ improvements feel free to run them by me)
 level styles specify the style for mobile, and media queries with (min-width:) should be used to add/modify styles
 for a tablet/desktop environment.
 3. Chrome is the primary development browser and Firefox should be also be supported
+
+# Frameworks
+
+This section provides a list of all external libraries in use by the site, as well as links to assoicated documentation
+
+1. [Normalize.css](https://necolas.github.io/normalize.css/) - Standardizes display of elements so cross-browser differences are minimized.  Should not really affect development.
+2. [Flexbox Grid](http://flexboxgrid.com/) - Contains CSS for a 12 column grid layout based on the `flex` property.  This should be the primary means of laying out responsive web pages.  For consistency, custom media query breakpoints should align with the breakpoints used by this grid, namely `48em`, `64em`, and `75em` (corosponding to `sm`, `md`, and `lg` respectively).
     
  
