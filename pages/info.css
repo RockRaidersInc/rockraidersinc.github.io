@@ -13,8 +13,14 @@
     margin-bottom: 0.5em;
 }
 
-@media only screen and (min-width : 48em) {
-    #teamphoto {
-        width:85%;
-    }
+.bio-card {
+	padding: 1.5rem;
+	background-color: rgba(178,34,34,0.1);
+	border-radius: 1.5rem;
+	margin: 1rem 0;
+}
+
+.officer-name {
+	font-size: 1.5rem;
+	font-weight: bold;
 }
