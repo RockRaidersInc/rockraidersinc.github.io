@@ -24,3 +24,8 @@
 	font-size: 1.5rem;
 	font-weight: bold;
 }
+
+.officer-photo {
+	height: 250px;
+	padding: 0 0.5rem;
+}
