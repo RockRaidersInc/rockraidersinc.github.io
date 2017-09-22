@@ -39,8 +39,7 @@
     height: 3vh;
 }
 
-
-.responsive-iframe-container {
+.responsive-iframe-container > div {
     position: relative;
     padding-top: 30px;
     overflow: auto;
@@ -71,10 +70,14 @@
         width: auto;
     }
 
-    .responsive-iframe-container {
-        position: relative;
-        padding-top: 30px;
-        overflow: auto;
-        padding-bottom: 56.25%; /* 16:9 aspect */;
+    .responsive-iframe-container > div {
+        padding-bottom: 56.25%; /* 16:9 aspect */
+    }
+}
+
+@media only screen and (min-width: 75em) {
+    .responsive-iframe-container > div {
+        width: 90%;
+        padding-bottom: 45%;
     }
 }
