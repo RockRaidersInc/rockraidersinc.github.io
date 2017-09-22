@@ -34,8 +34,16 @@
 		</div>
 	</div>
 	<div id="content">
-		<h2>Events:</h2>
-		<!-- The content is filled via events.js based on /data/events/outline.json -->
+		<h2>Weekly Schedule</h2>
+		<!--Google calendar embed-->
+		<div class="responsive-iframe-container row center-xs">
+			<div class="col-xs-12 col-lg-10">
+				<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rockraiders.rpi%40gmail.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" class="frameborder="0" scrolling="no"></iframe>
+			</div>
+		</div>
+		<div id="major-events-div">
+			<!-- The content is filled via events.js based on /data/events/outline.json -->
+		</div>
 	</div>
 </body>
 </html>

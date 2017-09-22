@@ -30,9 +30,9 @@ function htmlForRow(event){
 "</div>";
 }
 function htmlForEventList(list){
-    if(list.length == 0) return "<div class='no-events'>No Upcoming Events</div>";
+    if(list.length == 0) return "";
     else{
-        var ret = "<div class='container-fluid'>";
+        var ret = "<h2>Major Upcoming Events:</h2><div class='container-fluid'>";
         for(i=0; i<list.length; ++i){
             ret += htmlForRow(list[i]);
         }
@@ -43,4 +43,4 @@ function htmlForEventList(list){
 }
 
 //Use the data from the given JSON and the above function to fill the content div
-addContentFromJSON("/resources/data/events/outline.json",htmlForEventList,"content");
+addContentFromJSON("/resources/data/events/outline.json",htmlForEventList,"major-events-div");
