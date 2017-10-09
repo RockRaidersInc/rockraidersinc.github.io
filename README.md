@@ -1,5 +1,4 @@
-rockraiders.github.io
-https://rockraidersinc.github.io/
+[rockraiders.github.io](https://rockraidersinc.github.io/)
 =====================
 RPI Rock Raiders Official Page
 ------------------------------
