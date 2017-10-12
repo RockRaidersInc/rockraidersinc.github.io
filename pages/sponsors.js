@@ -6,7 +6,7 @@ function htmlForSponsor(sponsor){
 }
 
 //Path prefix for all sponsor image names
-var sponsor_img_prefix = "/resources/img/sponsors/";
+var sponsor_img_prefix = "../resources/img/sponsors/";
 
 function htmlForSponsorList(list){
     var content = "";
