@@ -19,4 +19,4 @@ function htmlForSponsorList(list){
 }
 
 //Use the data from the given JSON and the above function to fill the content div
-addContentFromJSON("/resources/data/sponsors/sponsors.json", htmlForSponsorList, "content");
+addContentFromJSON("../resources/data/sponsors/sponsors.json", htmlForSponsorList, "content");
