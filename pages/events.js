@@ -13,7 +13,7 @@ For spacing row
 */
 
 //Base url for event detail page. The specific event dataFile is appended to create the full target links
-var baseEventUrl = "/pages/event_detail.html?event=";
+var baseEventUrl = "event_detail.html?event=";
 function htmlForRow(event){
     if(event.title === undefined){ //Empty object, insert spacing row
         return "<div class='row'><div class='col-xs-12 spacer-row'></div></div>";

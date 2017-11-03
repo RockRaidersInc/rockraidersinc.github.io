@@ -24,7 +24,7 @@ Rock Raiders Red:
 
 /*Adds logo image to background*/
 body {
-   	background: url(/resources/img/logo/rol.jpg) no-repeat center center fixed;
+   	background: url(/rockraiders/resources/img/logo/rol.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
